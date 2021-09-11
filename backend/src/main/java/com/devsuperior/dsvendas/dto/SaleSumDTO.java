@@ -7,33 +7,33 @@ import com.devsuperior.dsvendas.entities.Seller;
 public class SaleSumDTO implements Serializable{	
 	private static final long serialVersionUID = 1L;
 	
-	private String sellerNameString;
-	private Double sumDouble;
+	private String sellerName;
+	private Double sum;
 	
 	public SaleSumDTO() {
 		
 	}
 
-	public SaleSumDTO(Seller seller, Double sumDouble) {
+	public SaleSumDTO(Seller seller, Double sum) {
 		super();
-		this.sellerNameString = seller.getName();
-		this.sumDouble = sumDouble;
+		this.sellerName = seller.getName();
+		this.sum = sum;
 	}
 
-	public String getSellerNameString() {
-		return sellerNameString;
+	public String getSellerName() {
+		return sellerName;
 	}
 
-	public void setSellerNameString(String sellerNameString) {
-		this.sellerNameString = sellerNameString;
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
 	}
 
-	public Double getSumDouble() {
-		return sumDouble;
+	public Double getSum() {
+		return sum;
 	}
 
-	public void setSumDouble(Double sumDouble) {
-		this.sumDouble = sumDouble;
+	public void setSum(Double sum) {
+		this.sum = sum;
 	}
 	
 	
