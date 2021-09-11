@@ -21,11 +21,11 @@ public class SaleSucessDTO implements Serializable{
 		this.deals = deals;
 	}
 
-	public String getSellerNameString() {
+	public String getSellerName() {
 		return sellerName;
 	}
 
-	public void setSellerNameString(String sellerName) {
+	public void setSellerName(String sellerName) {
 		this.sellerName = sellerName;
 	}
 
